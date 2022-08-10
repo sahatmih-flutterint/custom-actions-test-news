@@ -1,6 +1,6 @@
-name: Ghb token
-description: GHB token for modules
-author: Mihail Sahatchiev
+name: Testing auth
+description: testing for modules
+author: MS
 inputs:  
   user:
     default: user
@@ -11,7 +11,7 @@ inputs:
   ghbtoken:
     required: true
     description: secrets.GHB_TOKEN
-    
+
 runs:
   using: node12
   main: action.js
