@@ -12,4 +12,4 @@ jobs:
     - name: Run Action
       uses: ./
       with:
-        token: ${{ secrets.GHB_TOKEN }}
+        ghbtoken: ${{ secrets.GHB_TOKEN }}
