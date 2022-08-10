@@ -1,17 +1,17 @@
 name: Ghb token
 description: GHB token for modules
 author: Mihail Sahatchiev
-inputs:
-  token:
-    required: true
-    description: secrets.GHB_TOKEN
-  name:
+inputs:  
+  user:
     default: user
     description: user
   email:
     default: something@something.com
     description: Author email.
-
+  ghbtoken:
+    required: true
+    description: secrets.GHB_TOKEN
+    
 runs:
   using: node12
   main: action.js
